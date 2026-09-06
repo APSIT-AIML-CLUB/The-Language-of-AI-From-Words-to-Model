@@ -1,0 +1,36 @@
+# =============================================================================
+# ResumeIQ AI — Backend Dependencies (Single File Version)
+# =============================================================================
+# Install with:
+#   pip install -r requirements.txt
+#
+# After installing spaCy, download the language model:
+#   python -m spacy download en_core_web_sm
+# =============================================================================
+
+# Web Framework
+fastapi==0.139.2
+uvicorn[standard]==0.51.0
+python-multipart==0.0.32
+
+# Validation
+pydantic==2.13.4
+pydantic-settings==2.14.2
+
+# Document Parsing
+pymupdf==1.28.0
+python-docx==1.2.0
+
+# NLP & ML
+spacy==3.8.13
+sentence-transformers==5.6.0
+scikit-learn==1.9.0
+numpy==2.5.1
+
+# AI Services
+google-genai
+langgraph>=1.2.11
+python-dotenv>=1.0.0
+
+# Optional Database
+psycopg2-binary==2.9.12
